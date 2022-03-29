@@ -19,7 +19,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
 # IMS
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     mtk-ims-telephony
 
 # Screen density
@@ -127,7 +127,7 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # ImsInit hack
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     ImsInit
 
 # Wi-Fi
