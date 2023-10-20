@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cipher_certus.mk
+    $(LOCAL_DIR)/aosp_certus.mk
 
 COMMON_LUNCH_CHOICES := \
-    cipher_certus-user \
-    cipher_certus-userdebug \
-    cipher_certus-eng
+    aosp_certus-user \
+    aosp_certus-userdebug \
+    aosp_certus-eng

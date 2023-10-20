@@ -1,0 +1,8 @@
+[
+  {
+	"remote": "github",
+	"repository": "kbt69/libaptX",
+	"target_path": "external/libaptx",
+	"branch": "main"
+  }
+]
